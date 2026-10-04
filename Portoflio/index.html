@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="MONTRIO — Professional video editing by Mohammed Ezz. Short-form videos, social media content, advertisements, talking-head edits, and creative visual storytelling." />
+  <meta property="og:title" content="MONTRIO — Video Editor" />
+  <meta property="og:description" content="Professional video editing by Mohammed Ezz. Short-form videos, social media content, advertisements, and creative visual storytelling." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://montrio.com" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="MONTRIO — Video Editor" />
+  <meta name="twitter:description" content="Professional video editing by Mohammed Ezz." />
+  <title>MONTRIO — Video Editor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════
+     NAVBAR
+══════════════════════════════════ -->
+<nav class="navbar" id="navbar" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo" aria-label="MONTRIO — Home">MONTRIO</a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home"       class="nav-link">Home</a></li>
+      <li><a href="#about"      class="nav-link">About</a></li>
+      <li><a href="#skills"     class="nav-link">Skills</a></li>
+      <li><a href="#work"       class="nav-link">Work</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#services"   class="nav-link">Services</a></li>
+      <li><a href="#contact"    class="nav-link">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch to light mode">
+        <!-- Moon icon (shown in dark mode) -->
+        <svg class="icon-moon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <!-- Sun icon (shown in light mode) -->
+        <svg class="icon-sun" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span class="ham-line line-1"></span>
+        <span class="ham-line line-2"></span>
+        <span class="ham-line line-3"></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile overlay -->
+<div class="mob-overlay" id="mobOverlay" aria-hidden="true"></div>
+
+
+<!-- ══════════════════════════════════
+     HERO
+══════════════════════════════════ -->
+<section id="home" class="hero">
+  <!-- Background decoration -->
+  <div class="hero-bg" aria-hidden="true">
+    <div class="hb-grid"></div>
+    <div class="hb-glow hb-glow-r"></div>
+    <div class="hb-glow hb-glow-l"></div>
+  </div>
+
+  <div class="container hero-layout">
+    <!-- Left: content -->
+    <div class="hero-content">
+      <div class="hero-eyebrow reveal">
+        <span class="eyebrow-dot"></span>
+        MONTRIO — VIDEO EDITOR
+      </div>
+
+      <h1 class="hero-title reveal">
+        Turning Raw Footage Into
+        <span class="hero-title-accent">Content People<br>Want to Watch.</span>
+      </h1>
+
+      <p class="hero-body reveal">
+        I transform raw footage into engaging short-form videos, advertisements, and social content through purposeful editing, strong pacing, sound design, and visual storytelling.
+      </p>
+
+      <div class="hero-cta reveal">
+        <a href="#work" class="btn btn-gold">
+          VIEW MY WORK
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-ghost">LET'S WORK TOGETHER</a>
+      </div>
+    </div>
+
+    <!-- Right: cinematic visual -->
+    <div class="hero-visual reveal" aria-hidden="true">
+      <div class="hv-frame">
+        <div class="hv-screen">
+          <!-- Cinematic composition — replace inner content with real video/image when available -->
+          <div class="hv-comp">
+            <div class="hvc-bg"></div>
+            <div class="hvc-overlay-text">
+              <div class="hvc-label">SHORT-FORM</div>
+              <div class="hvc-brand">MONTRIO</div>
+              <div class="hvc-rule"></div>
+            </div>
+            <div class="hvc-tracks">
+              <div class="hvc-track">
+                <div class="hvc-cursor"></div>
+                <div class="hvc-clip hvc-c1"></div>
+                <div class="hvc-clip hvc-c2"></div>
+                <div class="hvc-clip hvc-c3"></div>
+                <div class="hvc-clip hvc-c4"></div>
+              </div>
+              <div class="hvc-track">
+                <div class="hvc-clip hvc-c5"></div>
+                <div class="hvc-clip hvc-c6"></div>
+                <div class="hvc-clip hvc-c7"></div>
+              </div>
+              <div class="hvc-track hvc-track-thin">
+                <div class="hvc-clip hvc-c8"></div>
+                <div class="hvc-clip hvc-c9"></div>
+              </div>
+            </div>
+            <div class="hvc-bar">
+              <span class="hvc-play">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>
+              </span>
+              <div class="hvc-progress"><div class="hvc-progress-fill"></div></div>
+              <span class="hvc-time">00:45</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating badges -->
+        <div class="hv-badge badge-a">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          Visual Storytelling
+        </div>
+        <div class="hv-badge badge-b">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+          Sound Design
+        </div>
+        <div class="hv-badge badge-c">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+          Short-Form Editing
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll indicator -->
+  <a href="#about" class="hero-scroll" aria-label="Scroll to About">
+    <span class="hs-label">SCROLL</span>
+    <span class="hs-line"></span>
+  </a>
+</section>
+
+
+<!-- ══════════════════════════════════
+     ABOUT
+══════════════════════════════════ -->
+<section id="about" class="section about-section">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="sec-label">WHO I AM</div>
+      <h2 class="sec-title">ABOUT ME</h2>
+    </div>
+
+    <div class="about-grid">
+      <!-- Portrait -->
+      <div class="about-portrait reveal">
+        <div class="portrait-wrap">
+          <!--
+            Replace the div.portrait-placeholder below with an <img> tag
+            when the real portrait photo is available:
+            <img src="images/portrait.jpg" alt="Mohammed Ezz — Video Editor" />
+          -->
+          <div class="portrait-placeholder">
+            <div class="pp-initials">ME</div>
+            <div class="pp-name">Mohammed Ezz</div>
+          </div>
+          <div class="portrait-accent-border"></div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="about-content">
+        <h3 class="about-name reveal">Mohammed Ezz</h3>
+        <p class="about-role reveal">Video Editor &amp; Visual Storyteller</p>
+
+        <p class="about-text reveal">
+          I'm a video editor focused on creating engaging, modern content for social media, creators, businesses, and brands. My approach combines strong hooks, purposeful cuts, dynamic pacing, sound design, captions, motion, and visual storytelling to turn raw footage into polished content.
+        </p>
+        <p class="about-text reveal">
+          My goal is not simply to make videos look good. Every cut, sound, transition, and visual element should have a purpose — whether that means improving clarity, strengthening the story, or keeping the viewer engaged.
+        </p>
+
+        <div class="about-tags reveal">
+          <span class="tag">Short-Form</span>
+          <span class="tag">Social Media</span>
+          <span class="tag">Advertisements</span>
+          <span class="tag">Sound Design</span>
+          <span class="tag">Storytelling</span>
+          <span class="tag">Captions</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════
+     SKILLS
+══════════════════════════════════ -->
+<section id="skills" class="section skills-section">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="sec-label">WHAT I KNOW</div>
+      <h2 class="sec-title">SKILLS</h2>
+    </div>
+
+    <div class="skills-grid">
+
+      <article class="skill-card reveal">
+        <div class="sc-head">
+          <div class="sc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+          </div>
+          <h3 class="sc-title">VIDEO EDITING</h3>
+        </div>
+        <ul class="sc-list">
+          <li>Short-Form Editing</li>
+          <li>Social Media Editing</li>
+          <li>Advertisement Editing</li>
+          <li>Talking-Head Editing</li>
+          <li>Cinematic Editing</li>
+          <li>Storytelling</li>
+          <li>Pacing</li>
+          <li>Hook Creation</li>
+        </ul>
+        <div class="sc-glow"></div>
+      </article>
+
+      <article class="skill-card reveal">
+        <div class="sc-head">
+          <div class="sc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+          </div>
+          <h3 class="sc-title">POST-PRODUCTION</h3>
+        </div>
+        <ul class="sc-list">
+          <li>Sound Design</li>
+          <li>Audio Enhancement</li>
+          <li>Captions &amp; Subtitles</li>
+          <li>Motion Graphics</li>
+          <li>Keyframe Animation</li>
+          <li>Punch-ins &amp; Zooms</li>
+          <li>Transitions</li>
+          <li>Color Correction</li>
+          <li>Visual Effects</li>
+        </ul>
+        <div class="sc-glow"></div>
+      </article>
+
+      <article class="skill-card reveal">
+        <div class="sc-head">
+          <div class="sc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3 class="sc-title">TOOLS</h3>
+        </div>
+        <ul class="sc-list">
+          <li>CapCut</li>
+          <li>AI Video Tools</li>
+          <li>AI-Assisted Creative Workflows</li>
+          <li>Google Drive</li>
+          <li>Creative AI Tools</li>
+        </ul>
+        <div class="sc-glow"></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════
+     WORK / PORTFOLIO
+══════════════════════════════════ -->
+<section id="work" class="section work-section">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="sec-label">PORTFOLIO</div>
+      <h2 class="sec-title">SELECTED WORK</h2>
+      <p class="sec-sub">Selected edits built around pacing, storytelling, sound, and visual impact.</p>
+    </div>
+
+    <div class="work-grid">
+
+      <!-- Project 01 -->
+      <article class="proj-card reveal" data-num="01">
+        <div class="proj-thumb">
+          <!--
+            Replace div.proj-thumb-inner with <img> or <video> when media is ready.
+            Example: <img src="thumbnails/legal-edit.jpg" alt="Legal Content Short-Form Edit" />
+          -->
+          <div class="proj-thumb-inner pti-01">
+            <div class="pti-decor">
+              <div class="pti-bar pb-1"></div>
+              <div class="pti-bar pb-2"></div>
+              <div class="pti-bar pb-3"></div>
+            </div>
+            <span class="pti-tag">LEGAL CONTENT</span>
+          </div>
+          <div class="proj-overlay">
+            <span class="proj-play-btn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="5,3 19,12 5,21"/></svg>
+            </span>
+          </div>
+          <span class="proj-num" aria-hidden="true">01</span>
+        </div>
+        <div class="proj-info">
+          <div class="proj-cat">Social Media / Talking Head</div>
+          <h3 class="proj-title">Legal Content — Short-Form Edit</h3>
+          <p class="proj-desc">A dynamic short-form edit using strong pacing, captions, punch-ins, sound design, and visual emphasis for educational legal content.</p>
+          <a href="#contact" class="proj-link">
+            VIEW PROJECT
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Project 02 -->
+      <article class="proj-card reveal" data-num="02">
+        <div class="proj-thumb">
+          <div class="proj-thumb-inner pti-02">
+            <div class="pti-decor">
+              <div class="pti-bar pb-1"></div>
+              <div class="pti-bar pb-2"></div>
+              <div class="pti-bar pb-3"></div>
+            </div>
+            <span class="pti-tag">REAL ESTATE</span>
+          </div>
+          <div class="proj-overlay">
+            <span class="proj-play-btn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="5,3 19,12 5,21"/></svg>
+            </span>
+          </div>
+          <span class="proj-num" aria-hidden="true">02</span>
+        </div>
+        <div class="proj-info">
+          <div class="proj-cat">Real Estate / Advertising</div>
+          <h3 class="proj-title">Real Estate — Promotional Edit</h3>
+          <p class="proj-desc">A visually driven real-estate edit combining fast cuts, visual progression, motion, data elements, and sound design.</p>
+          <a href="#contact" class="proj-link">
+            VIEW PROJECT
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Project 03 -->
+      <article class="proj-card reveal" data-num="03">
+        <div class="proj-thumb">
+          <div class="proj-thumb-inner pti-03">
+            <div class="pti-decor">
+              <div class="pti-bar pb-1"></div>
+              <div class="pti-bar pb-2"></div>
+              <div class="pti-bar pb-3"></div>
+            </div>
+            <span class="pti-tag">FOOD AD</span>
+          </div>
+          <div class="proj-overlay">
+            <span class="proj-play-btn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="5,3 19,12 5,21"/></svg>
+            </span>
+          </div>
+          <span class="proj-num" aria-hidden="true">03</span>
+        </div>
+        <div class="proj-info">
+          <div class="proj-cat">Food Advertising</div>
+          <h3 class="proj-title">Burger Advertisement</h3>
+          <p class="proj-desc">A high-energy food advertisement built around appetizing visuals, rhythmic editing, cinematic movement, and sound design.</p>
+          <a href="#contact" class="proj-link">
+            VIEW PROJECT
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Project 04 -->
+      <article class="proj-card reveal" data-num="04">
+        <div class="proj-thumb">
+          <div class="proj-thumb-inner pti-04">
+            <div class="pti-decor">
+              <div class="pti-bar pb-1"></div>
+              <div class="pti-bar pb-2"></div>
+              <div class="pti-bar pb-3"></div>
+            </div>
+            <span class="pti-tag">CINEMATIC</span>
+          </div>
+          <div class="proj-overlay">
+            <span class="proj-play-btn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="5,3 19,12 5,21"/></svg>
+            </span>
+          </div>
+          <span class="proj-num" aria-hidden="true">04</span>
+        </div>
+        <div class="proj-info">
+          <div class="proj-cat">Cinematic / Religious</div>
+          <h3 class="proj-title">Qur'an Recitation — Cinematic Presentation</h3>
+          <p class="proj-desc">A refined visual presentation using elegant typography, controlled motion, clean composition, and a calm cinematic atmosphere.</p>
+          <a href="#contact" class="proj-link">
+            VIEW PROJECT
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Project 05 — Full width -->
+      <article class="proj-card proj-card-wide reveal" data-num="05">
+        <div class="proj-thumb">
+          <div class="proj-thumb-inner pti-05">
+            <div class="pti-decor pti-decor-wide">
+              <div class="pti-bar pb-1"></div>
+              <div class="pti-bar pb-2"></div>
+              <div class="pti-bar pb-3"></div>
+              <div class="pti-bar pb-4"></div>
+            </div>
+            <span class="pti-tag">SHORT-FORM COLLECTION</span>
+          </div>
+          <div class="proj-overlay">
+            <span class="proj-play-btn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="5,3 19,12 5,21"/></svg>
+            </span>
+          </div>
+          <span class="proj-num" aria-hidden="true">05</span>
+        </div>
+        <div class="proj-info">
+          <div class="proj-cat">Social Media</div>
+          <h3 class="proj-title">Short-Form Editing Collection</h3>
+          <p class="proj-desc">A collection of short-form edits demonstrating different approaches to hooks, pacing, captions, punch-ins, transitions, sound design, and storytelling.</p>
+          <a href="https://drive.google.com/drive/folders/1Ga1MHfiI7XNjsfg99utmxnMXzo3wNQGx?usp=sharing" target="_blank" rel="noopener noreferrer" class="proj-link">
+            VIEW PROJECT
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════
+     EXPERIENCE
+══════════════════════════════════ -->
+<section id="experience" class="section exp-section">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="sec-label">BACKGROUND</div>
+      <h2 class="sec-title">CREATIVE EXPERIENCE</h2>
+    </div>
+
+    <div class="timeline">
+
+      <article class="tl-item reveal">
+        <div class="tl-left">
+          <div class="tl-dot"></div>
+          <div class="tl-line"></div>
+        </div>
+        <div class="tl-right">
+          <span class="tl-date">2026 — Present</span>
+          <h3 class="tl-title">Freelance Video Editor</h3>
+          <ul class="tl-list">
+            <li>Editing short-form social media content</li>
+            <li>Creating advertisements and promotional videos</li>
+            <li>Developing stronger storytelling, pacing, and sound-design workflows</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="tl-item reveal">
+        <div class="tl-left">
+          <div class="tl-dot"></div>
+          <div class="tl-line"></div>
+        </div>
+        <div class="tl-right">
+          <span class="tl-date">2026 — Present</span>
+          <h3 class="tl-title">Creative Editing Projects</h3>
+          <ul class="tl-list">
+            <li>Working across legal, real-estate, food, cinematic, and social-media content</li>
+            <li>Developing editing workflows using CapCut and AI-assisted creative tools</li>
+            <li>Continuously improving visual storytelling and retention-focused editing</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="tl-item reveal">
+        <div class="tl-left">
+          <div class="tl-dot"></div>
+        </div>
+        <div class="tl-right">
+          <span class="tl-date">2026 — Present</span>
+          <h3 class="tl-title">MONTRIO</h3>
+          <ul class="tl-list">
+            <li>Building a professional video-editing brand</li>
+            <li>Developing a client-focused portfolio</li>
+            <li>Creating branded creative projects</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════
+     SERVICES
+══════════════════════════════════ -->
+<section id="services" class="section services-section">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="sec-label">OFFERINGS</div>
+      <h2 class="sec-title">WHAT I DO</h2>
+    </div>
+
+    <div class="services-grid">
+
+      <article class="svc-card reveal">
+        <div class="svc-num">01</div>
+        <div class="svc-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="15" rx="2"/><polyline points="17 2 12 7 7 2"/></svg>
+        </div>
+        <h3 class="svc-title">SHORT-FORM VIDEO EDITING</h3>
+        <p class="svc-desc">Engaging TikTok, Instagram Reels, YouTube Shorts, and vertical content with strong pacing, captions, visual emphasis, and retention-focused editing.</p>
+        <div class="svc-arrow" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </div>
+      </article>
+
+      <article class="svc-card reveal">
+        <div class="svc-num">02</div>
+        <div class="svc-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+        </div>
+        <h3 class="svc-title">SOCIAL MEDIA ADVERTISEMENTS</h3>
+        <p class="svc-desc">Short-form advertisements designed around clear messaging, strong hooks, visual storytelling, pacing, and sound design.</p>
+        <div class="svc-arrow" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </div>
+      </article>
+
+      <article class="svc-card reveal">
+        <div class="svc-num">03</div>
+        <div class="svc-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <h3 class="svc-title">TALKING-HEAD EDITING</h3>
+        <p class="svc-desc">Clean and engaging talking-head videos using captions, punch-ins, B-roll, sound design, and dynamic pacing.</p>
+        <div class="svc-arrow" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </div>
+      </article>
+
+      <article class="svc-card reveal">
+        <div class="svc-num">04</div>
+        <div class="svc-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <h3 class="svc-title">CREATIVE VIDEO EDITING</h3>
+        <p class="svc-desc">Custom editing for creators, businesses, and personal brands that need a polished and distinctive visual style.</p>
+        <div class="svc-arrow" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════
+     PROCESS
+══════════════════════════════════ -->
+<section id="process" class="section process-section">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="sec-label">MY APPROACH</div>
+      <h2 class="sec-title">HOW I APPROACH EVERY EDIT</h2>
+    </div>
+
+    <div class="process-row">
+
+      <div class="proc-step reveal">
+        <div class="proc-num">01</div>
+        <h3 class="proc-title">UNDERSTAND</h3>
+        <p class="proc-desc">Understand the message, audience, platform, and objective.</p>
+      </div>
+
+      <div class="proc-arrow" aria-hidden="true"></div>
+
+      <div class="proc-step reveal">
+        <div class="proc-num">02</div>
+        <h3 class="proc-title">STRUCTURE</h3>
+        <p class="proc-desc">Build the hook, story flow, pacing, and visual hierarchy.</p>
+      </div>
+
+      <div class="proc-arrow" aria-hidden="true"></div>
+
+      <div class="proc-step reveal">
+        <div class="proc-num">03</div>
+        <h3 class="proc-title">ENHANCE</h3>
+        <p class="proc-desc">Add sound design, captions, motion, transitions, color, and visual details where they improve the content.</p>
+      </div>
+
+      <div class="proc-arrow" aria-hidden="true"></div>
+
+      <div class="proc-step reveal">
+        <div class="proc-num">04</div>
+        <h3 class="proc-title">REFINE</h3>
+        <p class="proc-desc">Polish timing, audio, typography, visuals, and final presentation.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════
+     BUILDING MONTRIO (Career Objective)
+══════════════════════════════════ -->
+<section id="brand" class="section brand-section">
+  <div class="container">
+    <div class="brand-inner reveal">
+      <div class="brand-label">THE BRAND</div>
+      <h2 class="brand-title">BUILDING MONTRIO</h2>
+      <p class="brand-text">
+        I'm building MONTRIO into a creative editing brand focused on helping creators, businesses, and brands turn raw footage into content that communicates clearly, looks professional, and keeps viewers engaged.
+      </p>
+      <a href="#contact" class="btn btn-gold">START A PROJECT</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════
+     CONTACT
+══════════════════════════════════ -->
+<section id="contact" class="section contact-section">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="sec-label">GET IN TOUCH</div>
+      <h2 class="contact-headline">HAVE A PROJECT IN MIND?</h2>
+      <p class="contact-sub">Tell me what you're working on, what you need, and where you want the content to go. Let's turn the idea into a polished edit.</p>
+    </div>
+
+    <div class="contact-layout">
+
+      <!-- Left: CTA + Socials -->
+      <div class="contact-left reveal">
+        <div class="contact-cta-btns">
+          <a href="https://wa.me/201007309249" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" id="whatsappBtn">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WHATSAPP ME
+          </a>
+          <a href="https://drive.google.com/drive/folders/1Ga1MHfiI7XNjsfg99utmxnMXzo3wNQGx?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" id="portfolioBtn">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            VIEW PORTFOLIO
+          </a>
+        </div>
+
+        <div class="social-list">
+
+          <a href="https://www.instagram.com/m0ntr_i0" target="_blank" rel="noopener noreferrer" class="social-row" id="igLink" aria-label="Follow on Instagram">
+            <div class="social-icon-wrap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </div>
+            <div class="social-info">
+              <span class="social-platform">Instagram</span>
+              <span class="social-handle">@m0ntr_i0</span>
+            </div>
+            <svg class="social-go" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+
+          <a href="https://www.tiktok.com/@m0ntr_i0" target="_blank" rel="noopener noreferrer" class="social-row" id="ttLink" aria-label="Follow on TikTok">
+            <div class="social-icon-wrap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.75a8.18 8.18 0 0 0 4.78 1.52V6.79a4.85 4.85 0 0 1-1.01-.1z"/></svg>
+            </div>
+            <div class="social-info">
+              <span class="social-platform">TikTok</span>
+              <span class="social-handle">@m0ntr_i0</span>
+            </div>
+            <svg class="social-go" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+
+          <a href="https://www.linkedin.com/in/montrio" target="_blank" rel="noopener noreferrer" class="social-row" id="liLink" aria-label="Connect on LinkedIn">
+            <div class="social-icon-wrap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </div>
+            <div class="social-info">
+              <span class="social-platform">LinkedIn</span>
+              <span class="social-handle">Montrio</span>
+            </div>
+            <svg class="social-go" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+
+          <a href="https://wa.me/201007309249" target="_blank" rel="noopener noreferrer" class="social-row" id="waLink" aria-label="Message on WhatsApp">
+            <div class="social-icon-wrap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </div>
+            <div class="social-info">
+              <span class="social-platform">WhatsApp</span>
+              <span class="social-handle">+20 100 730 9249</span>
+            </div>
+            <svg class="social-go" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <div class="contact-right reveal">
+        <form class="contact-form" id="contactForm" novalidate aria-label="Project inquiry form">
+          <div class="form-group">
+            <label class="form-label" for="fName">Name</label>
+            <input type="text" id="fName" name="name" class="form-input" placeholder="Your name" autocomplete="name" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="fEmail">Email</label>
+            <input type="email" id="fEmail" name="email" class="form-input" placeholder="your@email.com" autocomplete="email" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="fType">Project Type</label>
+            <select id="fType" name="type" class="form-input form-select" required>
+              <option value="" disabled selected>Select project type</option>
+              <option value="short-form">Short-Form Video Editing</option>
+              <option value="advertisement">Social Media Advertisement</option>
+              <option value="talking-head">Talking-Head Editing</option>
+              <option value="cinematic">Cinematic / Creative Edit</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="fMsg">Message</label>
+            <textarea id="fMsg" name="message" class="form-input form-textarea" placeholder="Tell me about your project — what do you need, who is it for, and where will it be published?" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold btn-block" id="formSubmit">
+            SEND PROJECT DETAILS
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+          <div class="form-success" id="formSuccess" hidden role="status" aria-live="polite">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Thanks — your message is ready to send. I'll be in touch soon.
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════
+     FOOTER
+══════════════════════════════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#home" class="footer-logo">MONTRIO</a>
+        <p class="footer-tagline">VIDEO EDITOR &amp; VISUAL STORYTELLER</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#home"       class="footer-link">Home</a>
+        <a href="#about"      class="footer-link">About</a>
+        <a href="#work"       class="footer-link">Work</a>
+        <a href="#services"   class="footer-link">Services</a>
+        <a href="#contact"    class="footer-link">Contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 MONTRIO. All rights reserved.</p>
+      <a href="#home" class="back-top" id="backTop" aria-label="Back to top">
+        BACK TO TOP
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
